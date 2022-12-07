@@ -61,5 +61,18 @@ var myNameArray = ['Chris', 'Bob', 'Jim'];
 var myNumberArray = [10,15,40];
 var dog = { name : 'Spot', breed : 'Dalmatian' };
 
+const monEntier = 5;
+const monFlottant = 6.667;
+monEntier;
+monFlottant;
+
+const grandePartieDecimale = 1.766584958675746364;
+grandePartieDecimale;
+const partieDecimaleAdeuxChiffres = grandePartieDecimale.toFixed(2);
+partieDecimaleAdeuxChiffres;
+
+let monNombre = '74';
+monNombre + 3;
+
 
   
