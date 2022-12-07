@@ -1,19 +1,22 @@
-let para = document.querySelector('p');
+/**  p>Player 1: Chris</p>  
+ * let para = document.querySelector('p');
 
 para.addEventListener('click', updateName);
 
 function updateName() {
   let name = prompt('Enter a new name');
   para.textContent = 'Player 1: ' + name;
-}
+} **/
 
-var canvas = document.getElementById('canvas');
+/**   <canvas id="canvas"></canvas>
+ * var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'red';
-ctx.fillRect(10, 10, 100, 100);
+ctx.fillRect(10, 10, 100, 100);  **/
 
-document.addEventListener("DOMContentLoaded", function() {
+/**  <button>Click me</button>
+ * document.addEventListener("DOMContentLoaded", function() {
     function createParagraph() {
       let para = document.createElement('p');
       para.textContent = 'Vous avez cliqué sur le bouton!';
@@ -25,11 +28,38 @@ document.addEventListener("DOMContentLoaded", function() {
     for(let i = 0; i < buttons.length ; i++) {
       buttons[i].addEventListener('click', createParagraph);
     }
-  });
+  }); ***/
 
-  function createParagraph() {
+  /***  <button onclick="createParagraph()">Cliquez-moi!</button>
+   * function createParagraph() {
     let para = document.createElement('p');
     para.textContent = 'Vous avez cliqué !';
     document.body.appendChild(para);
-  }
+  } ****/
+
+ /** myName = 'Chris';
+
+function logName(){
+    console.log(myName);
+}
+
+logName();
+
+var myName; **/
+
+/**  var myName = 'Chris';
+var myName = 'Bob';
+
+let myName = 'Chris' ;
+
+myName = 'Bob' ; **/
+
+myName = 'Bob';
+myAge = 40;
+
+var myNameArray = ['Chris', 'Bob', 'Jim'];
+var myNumberArray = [10,15,40];
+var dog = { name : 'Spot', breed : 'Dalmatian' };
+
+
   
