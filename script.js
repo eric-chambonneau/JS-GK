@@ -74,5 +74,45 @@ partieDecimaleAdeuxChiffres;
 let monNombre = '74';
 monNombre + 3;
 
+/** const num1 = 10;
+const num2 = 50;
+9 * num1;
+num1 ** 3;
+num2 / num1; **/
+
+/** let num2 = 6;
+num2--;
+num2; **/
+
+/** let x = 50; let y = 50;
+
+// Edit the two lines below here ONLY
+x = 50;
+y = 50;
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, x, y);
+
+const btn = document.querySelector('button');
+const txt = document.querySelector('p');
+
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+  if (btn.textContent === 'Démarrer la machine') {
+    btn.textContent = 'Arrêter la machine';
+    txt.textContent = 'La machine est en marche&nbsp;!';
+  } else {
+    btn.textContent = 'Démarrer la machine';
+    txt.textContent = 'La machine est arrêtée.';
+  }
+} **/
+
+let string = 'La révolution ne sera pas télévisée.';
+string;
+
+
+
+
 
   
