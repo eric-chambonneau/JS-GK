@@ -108,8 +108,16 @@ function updateBtn() {
   }
 } **/
 
-let string = 'La révolution ne sera pas télévisée.';
-string;
+/** let radData = 'My NaMe Is MuD';
+radData.toLowerCase();
+radData.toUpperCase();**/
+
+
+/** let string = 'La révolution ne sera pas télévisée.';
+string; **/
+
+let sequence = [1, 1, 2, 3, 5, 8, 13];
+let random = ['arbre', 795, [0, 1, 2]];
 
 
 
