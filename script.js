@@ -116,8 +116,27 @@ radData.toUpperCase();**/
 /** let string = 'La révolution ne sera pas télévisée.';
 string; **/
 
+let shopping = ['pain', 'lait', 'fromage', 'houmous', 'nouilles'];
+shopping;
+
+
 let sequence = [1, 1, 2, 3, 5, 8, 13];
 let random = ['arbre', 795, [0, 1, 2]];
+
+let myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+let myArray = myData.split(',');
+myArray;
+ 
+myArray.length;
+myArray[0]; // le premier élément du tableau
+myArray[1]; // le deuxième élément du tableau
+myArray[myArray.length-1]; // le dernier élément du tableau
+ 
+let myNewString = myArray.join(',');
+myNewString;
+
+let dogNames = ["Rocket","Flash","Bella","Slugger"];
+dogNames.toString(); //Rocket,Flash,Bella,Slugger
 
 
 
