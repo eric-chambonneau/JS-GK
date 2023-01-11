@@ -54,7 +54,7 @@ let myName = 'Chris' ;
 
 myName = 'Bob' ; **/
 
-myName = 'Bob';
+/**myName = 'Bob';
 myAge = 40;
 
 var myNameArray = ['Chris', 'Bob', 'Jim'];
@@ -64,7 +64,7 @@ var dog = { name : 'Spot', breed : 'Dalmatian' };
 const monEntier = 5;
 const monFlottant = 6.667;
 monEntier;
-monFlottant;
+monFlottant;**/
 
 const grandePartieDecimale = 1.766584958675746364;
 grandePartieDecimale;
